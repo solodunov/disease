@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>disease</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="header_logo">disease</a>
+        <form>
+            <input type="text" placeholder="search" class="header_search" id="search" onkeyup="filterImages()">
+        </form>
+    </header>
+    <main>
+        <div class="container" id="imgs">
+            <div class="image_block">
+                <h3>аденоиды</h3>
+                <img src="img/аденоиды.jpg" alt="img" class="img" id="аденоиды" data-lebel="аденоиды">
+            </div>
+            <div class="image_block">
+                <h3>аллергические заболевания</h3>
+                <img src="img/аллергия.jpg" alt="img" class="img" id="аллергические заболевания"
+                    data-lebel="аллергические заболевания">
+            </div>
+            <div class="image_block">
+                <h3>Болезнь Альцгеймера</h3>
+                <img src="img/Болезнь Альцгеймера.jpg" alt="img" class="img" id="Болезнь Альцгеймера"
+                    data-lebel="Болезнь Альцгеймера">
+            </div>
+            <div class="image_block">
+                <h3>Боковой амиотрофическийсклероз</h3>
+                <img src="img/Боковой амиотрофический склероз.jpg" alt="img" class="img"
+                    id="Боковой амиотрофическийсклероз" data-lebel="Боковой амиотрофическийсклероз">
+            </div>
+            <div class="image_block">
+                <h3>Болезни сердца и сосудов</h3>
+                <img src="img/Болезни сердца и сосусдов 2.jpg" alt="img" class="img" id="Болезни сердца и сосудов"
+                    data-lebel="Болезни сердца и сосудов">
+            </div>
+            <div class="image_block">
+                <h3>Болезнь Крона</h3>
+                <img src="img/болезнь крона.jpg" alt="img" class="img" id="Болезнь Крона" data-lebel="Болезнь Крона">
+            </div>
+            <div class="image_block">
+                <h3>Бронхиальная астма</h3>
+                <img src="img/бронхиальная астма 2.jpg" alt="img" class="img" id="Бронхиальная астма"
+                    data-lebel="Бронхиальная астма">
+            </div>
+            <div class="image_block">
+                <h3>ВИЧ/СПИД</h3>
+                <img src="img/ВИЧ.jpg" alt="img" class="img" id="ВИЧ/СПИД" data-lebel="ВИЧ/СПИД">
+            </div>
+            <div class="image_block">
+                <h3>Геморрой</h3>
+                <img src="img/геморрой.jpg" alt="img" class="img" id="Геморрой" data-lebel="Геморрой">
+            </div>
+            <div class="image_block">
+                <h3>Гепатит</h3>
+                <img src="img/гепатит.jpg" alt="img" class="img" id="Гепатит" data-lebel="Гепатит">
+            </div>
+            <div class="image_block">
+                <h3>Головная боль у детей</h3>
+                <img src="img/Головная боль у детей.jpg" alt="img" class="img" id="Головная боль у детей"
+                    data-lebel="Головная боль у детей">
+            </div>
+            <div class="image_block">
+                <h3>Деменция (слабоумие)</h3>
+                <img src="img/Деменция (слабоумие).jpg" alt="img" class="img" id="Деменция (слабоумие)"
+                    data-lebel="Деменция (слабоумие)">
+            </div>
+            <div class="image_block">
+                <h3>Желчнокаменная болезнь</h3>
+                <img src="img/желчекаменная болезнь 2.jpg" alt="img" class="img" id="Желчнокаменная болезнь"
+                    data-lebel="Желчнокаменная болезнь">
+            </div>
+            <div class="image_block">
+                <h3>Инсульт</h3>
+                <img src="img/инсульт.jpg" alt="img" class="img" id="Инсульт" data-lebel="Инсульт">
+            </div>
+            <div class="image_block">
+                <h3>Клещевой энцефалит(болезнь Лайма)</h3>
+                <img src="img/клещевой энцефалит.jpg" alt="img" class="img" id="Клещевой энцефалит(болезнь Лайма)"
+                    data-lebel="Клещевой энцефалит(болезнь Лайма)">
+            </div>
+            <div class="image_block">
+                <h3>Корь</h3>
+                <img src="img/корь.jpg" alt="img" class="img" id="Корь" data-lebel="Корь">
+            </div>
+            <div class="image_block">
+                <h3>Мастопатия</h3>
+                <img src="img/мастапатия.jpg" alt="img" class="img" id="Мастопатия" data-lebel="Мастопатия">
+            </div>
+            <div class="image_block">
+                <h3>Меланома</h3>
+                <img src="img/меланома.jpg" alt="img" class="img" id="Меланома" data-lebel="Меланома">
+            </div>
+            <div class="image_block">
+                <h3>Наркомания</h3>
+                <img src="img/Наркомания.jpg" alt="img" class="img" id="Наркомания" data-lebel="Наркомания">
+            </div>
+            <div class="image_block">
+                <h3>Ожирение</h3>
+                <img src="img/ожирение.jpg" alt="img" class="img" id="Ожирение" data-lebel="Ожирение">
+            </div>
+            <div class="image_block">
+                <h3>Орторексия</h3>
+                <img src="img/орторексия.jpg" alt="img" class="img" id="Орторексия" data-lebel="Орторексия">
+            </div>
+            <div class="image_block">
+                <h3>Отит</h3>
+                <img src="img/отит.jpg" alt="img" class="img" id="Отит" data-lebel="Отит">
+            </div>
+            <div class="image_block">
+                <h3>ОРВИ</h3>
+                <img src="img/ОРВИ.jpg" alt="img" class="img" id="ОРВИ" data-lebel="ОРВИ">
+            </div>
+            <div class="image_block">
+                <h3>Панкреатит</h3>
+                <img src="img/панкреатит.jpg" alt="img" class="img" id="Панкреатит" data-lebel="Панкреатит">
+            </div>
+            <div class="image_block">
+                <h3>Первичный иммунодефицит</h3>
+                <img src="img/первичный иммунодефицит.jpg" alt="img" class="img" id="Первичный иммунодефицит"
+                    data-lebel="Первичный иммунодефицит">
+            </div>
+            <div class="image_block">
+                <h3>Плоскостопие</h3>
+                <img src="img/плоскостопие 3.jpg" alt="img" class="img" id="Плоскостопие" data-lebel="Плоскостопие">
+            </div>
+            <div class="image_block">
+                <h3>Рак гортани</h3>
+                <img src="img/рак гортани.jpg" alt="img" class="img" id="Рак гортани" data-lebel="Рак гортани">
+            </div>
+            <div class="image_block">
+                <h3>Рак молочной железы</h3>
+                <img src="img/рак молочной железы.jpg" alt="img" class="img" id="Рак молочной железы"
+                    data-lebel="Рак молочной железы">
+            </div>
+            <div class="image_block">
+                <h3>Рак простаты</h3>
+                <img src="img/рак простаты.jpg" alt="img" class="img" id="Рак простаты" data-lebel="Рак простаты">
+            </div>
+            <div class="image_block">
+                <h3>Сколиоз</h3>
+                <img src="img/сколиоз.jpg" alt="img" class="img" id="Сколиоз" data-lebel="Сколиоз">
+            </div>
+            <div class="image_block">
+                <h3>Сахарный диабет</h3>
+                <img src="img/Сахарный диабет.jpg" alt="img" class="img" id="Сахарный диабет"
+                    data-lebel="Сахарный диабет">
+            </div>
+            <div class="image_block">
+                <h3>Тонзиллит</h3>
+                <img src="img/тонзиллит.jpg" alt="img" class="img" id="Тонзиллит" data-lebel="Тонзиллит">
+            </div>
+            <div class="image_block">
+                <h3>Туберкулёз</h3>
+                <img src="img/туберкулёз.jpg" alt="img" class="img" id="Туберкулёз" data-lebel="Туберкулёз">
+            </div>
+            <div class="image_block">
+                <h3>Шизофрения</h3>
+                <img src="img/шизофрения .jpg" alt="img" class="img" id="Шизофрения" data-lebel="Шизофрения">
+            </div>
+            <div class="image_block">
+                <h3>Целиакия</h3>
+                <img src="img/целиакия.jpg" alt="img" class="img" id="Целиакия" data-lebel="Целиакия">
+            </div>
+            <div class="image_block">
+                <h3>Цистит</h3>
+                <img src="img/цистит.jpg" alt="img" class="img" id="Цистит" data-lebel="Цистит">
+            </div>
+        </div>
+        <div id="myModal1" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">аденоиды</h1>
+                <img src="img/аденоиды.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close1">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open1()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">аллергические заболевания</h1>
+                <img src="img/аллергия.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close2">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open2()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal3" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Болезнь Альцгеймера</h1>
+                <img src="img/Болезнь Альцгеймера.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close3">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open3()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal4" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Боковой амиотрофическийсклероз</h1>
+                <img src="img/Боковой амиотрофический склероз.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close4">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open4()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal5" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Болезни сердца и сосудов</h1>
+                <img src="img/Болезни сердца и сосусдов 2.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close5">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open5()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal6" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Болезнь Крона</h1>
+                <img src="img/болезнь крона.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close6">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open6()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal7" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Бронхиальная астма</h1>
+                <img src="img/бронхиальная астма 2.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close7">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open7()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal8" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">ВИЧ/СПИД</h1>
+                <img src="img/ВИЧ.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close8">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open8()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal9" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Геморрой</h1>
+                <img src="img/геморрой.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close9">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open9()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal10" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Гепатит</h1>
+                <img src="img/гепатит.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close10">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open10()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal11" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Головная боль у детей</h1>
+                <img src="img/Головная боль у детей.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close11">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open11()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal12" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Деменция (слабоумие)</h1>
+                <img src="img/Деменция (слабоумие).jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close12">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open12()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal13" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Желчнокаменная болезнь</h1>
+                <img src="img/желчекаменная болезнь 2.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close13">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open13()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal14" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Инсульт</h1>
+                <img src="img/инсульт.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close14">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open14()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal15" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Клещевой энцефалит(болезнь Лайма) </h1>
+                <img src="img/клещевой энцефалит.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close15">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open15()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal16" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Корь</h1>
+                <img src="img/корь.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close16">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open16()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal17" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Мастопатия</h1>
+                <img src="img/мастапатия.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close17">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open17()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal18" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Меланома</h1>
+                <img src="img/меланома.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close18">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open18()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal19" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Наркомания</h1>
+                <img src="img/Наркомания.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close19">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open19()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal20" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Ожирение</h1>
+                <img src="img/ожирение.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close20">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open20()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal21" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Орторексия</h1>
+                <img src="img/орторексия.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close21">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open21()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal22" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Отит</h1>
+                <img src="img/отит.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close22">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open22()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal23" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">ОРВИ</h1>
+                <img src="img/ОРВИ.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close23">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open23()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal24" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Панкреатит</h1>
+                <img src="img/панкреатит.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close24">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open24()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal25" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Первичный иммунодефицит</h1>
+                <img src="img/первичный иммунодефицит.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close25">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open25()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal26" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Плоскостопие</h1>
+                <img src="img/плоскостопие 3.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close26">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open26()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal27" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Рак гортани</h1>
+                <img src="img/рак гортани.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close27">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open27()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal28" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Рак молочной железы</h1>
+                <img src="img/рак молочной железы.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close28">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open28()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal29" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Рак простаты</h1>
+                <img src="img/рак простаты.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close29">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open29()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal30" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Сколиоз</h1>
+                <img src="img/сколиоз.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close30">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open30()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal31" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Сахарный диабет</h1>
+                <img src="img/Сахарный диабет.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close31">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open31()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal32" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Тонзиллит</h1>
+                <img src="img/тонзиллит.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close32">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open32()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal33" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Туберкулёз</h1>
+                <img src="img/туберкулёз.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close33">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open33()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal34" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Шизофрения</h1>
+                <img src="img/шизофрения .jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close34">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open34()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal35" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Целиакия</h1>
+                <img src="img/целиакия.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close35">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open35()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div id="myModal36" class="modal">
+            <div class="modal-content">
+                <h1 class="modal-h1">Цистит</h1>
+                <img src="img/цистит.jpg" alt="img" class="img1">
+                <div class="clase1">
+                    <span class="close36">&times;</span>
+                </div>
+                <h2>в кратце</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed neque vel deleniti veritatis
+                    aperiam nihil error cumque impedit unde voluptates nesciunt blanditiis beatae eum quae nemo
+                    repudiandae ipsum iusto officiis, doloremque in aspernatur voluptatibus assumenda ipsa? Animi
+                    accusamus dolorem officia deserunt vitae iste, doloribus dolore. Optio, iusto. Impedit laudantium
+                    veniam repellendus itaque distinctio vero soluta tempora facere molestias sequi quia eius ipsam
+                    perferendis consequuntur consectetur rem, sed ipsa aperiam reprehenderit, unde expedita libero
+                    provident odio! Quae id tempore hic animi unde cum sapiente ad. Quaerat qui illo iusto, aspernatur
+                    sint recusandae porro. Quos, provident maxime. Error, doloremque quasi. Quidem dolor molestiae
+                    libero ab nisi, expedita voluptas aliquam assumenda sequi esse dolore architecto quas placeat
+                    soluta? Aut distinctio consectetur quod beatae dicta, quas nesciunt veniam exercitationem magnam
+                    enim, assumenda doloremque? Autem illo repudiandae quaerat alias magnam cum, consequatur quis
+                    numquam minus saepe enim adipisci a odio iusto provident veritatis aliquid! Temporibus nihil aliquid
+                    eos ab.</p>
+                <div class="open1">
+                    <button onclick="open36()" class="open">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
